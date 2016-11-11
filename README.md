@@ -7,5 +7,5 @@
 
 學號簡報: https://40223215.github.io/#/
 
-課程網誌: https://40223215.github.io/2016fallcadpb_hw/blog
+課程網誌: http://mde.tw/2016fallcadpb/blog/
 
