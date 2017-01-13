@@ -97,9 +97,8 @@
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
-<v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
-</v>
+<v t="amd.20160727114506.1"><vh>@edit 20170113.md</vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
@@ -108,6 +107,12 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="leo.20170113093653.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170113093653.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20170113093653.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20170113093653.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -142,7 +147,6 @@ print("hello")
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
-<t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
@@ -456,12 +460,11 @@ make.start()
 						
 </t>
 <t tx="amd.20161004095719.2"># 2016Fall CADPB 課程
-
+# 40223215 學員的課程簡報
 ### THE HTML PRESENTATION FRAMEWORK
 
 &lt;small&gt;
-Created by [Hakim El Hattab](http://hakim.se)
-[@hakimel](http://twitter.com/hakimel)
+Created by [40223215](https://github.com/40223215/2016fallcadp_hw)
 &lt;/small&gt;
 
 [blog](blog/index.html)
@@ -741,5 +744,42 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20170113093653.2"></t>
+<t tx="leo.20170113093653.3">(uncached) amd.20161004095719.2
+Diff...
+  # 2016Fall CADPB 課程
+- # 40223215 學員的課程簡報
++ 
+  ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+- Created by [40223215](https://github.com/40223215/2016fallcadp_hw)
++ Created by [Hakim El Hattab](http://hakim.se)
++ [@hakimel](http://twitter.com/hakimel)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+</t>
+<t tx="leo.20170113093653.4"># 2016Fall CADPB 課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20170113093653.5"># 2016Fall CADPB 課程
+# 40223215 學員的課程簡報
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [40223215](https://github.com/40223215/2016fallcadp_hw)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
 </tnodes>
 </leo_file>
